@@ -1,57 +1,135 @@
-<h1 align="center"> 项目名称（⚠️ Alpha内测版 / 🧪 Beta公测版） </h1>
+<h1 align="center">Hire Your AI · 数字同事训练营</h1>
+
+<p align="center">
+  <b>别再把 AI 当工具,把它当同事</b><br>
+  <i>Stop using AI. Start hiring it.</i>
+</p>
+
+<p align="center">
+  <img src="docs/public/learning.GIF" alt="Let's learn" width="240">
+</p>
 
 > [!CAUTION]
-> ⚠️ Alpha内测版本警告：此为早期内部构建版本，尚不完整且可能存在错误，欢迎大家提Issue反馈问题或建议。
+> ⚠️ **Alpha 内测版**:此为早期构建版本,章节尚不完整且可能存在错误。欢迎在 [Issues](https://github.com/SuperSupeng/hire-your-ai/issues) 反馈问题或建议。
 
-或者
+## 这是什么
 
-> [!WARNING]
-> 🧪 Beta公测版本提示：教程主体已完成，正在优化细节，欢迎大家提Issue反馈问题或建议。
+这不是一门"教你写更好的 Prompt"的课,而是一门教你**搭建自己的数字同事**(AI Agent)的训练营。
 
-*这里写项目的各类介绍信息、背景、动机等内容*
+如果你已经会用 ChatGPT 但总感觉"它只是个工具,你拨一下它动一下"——这正是这门课要解决的问题。**数字同事**有记忆、有手脚、有闹钟,能自己定时完成重复的工作,不再需要你每次从零开始交代背景。
 
-## 项目受众
+## 👥 适合谁
 
-*注：这里写你的项目所面向的受众，本项目能给他们带来什么，对他们的基础能力要求有哪些*
+- **被日常重复工作拖住的打工人**:周报、日报、早报、客户跟进、会议纪要……
+- **对 AI 好奇但不想写代码**的非技术同学
+- 想**从「1 个 AI 助理」发展到「一支 AI 小队」**的管理者、创业者
 
-## 在线阅读
-https://datawhalechina.github.io/repo-template
+**不要求**你会编程、会运维服务器、懂大模型原理。
 
-## 目录
-*这里写你的项目目录，及其完成状态，已完成的部分添加上跳转链接*
+## 🌐 在线阅读
 
-|  章节名   | 简介 | 状态 |
-|  ----  | ---- | ---- |
-| [第1章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter1)  | xxx | ✅ |
-| [第2章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2)  | xxx | ✅ |
-| [第3章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)  | xxx | ✅ |
-| 第4章  | xxx | 🚧 |
+> 🚧 站点部署中,首次 push 后需要在仓库 Settings > Pages 里把 Source 设为 "GitHub Actions"
 
-## 贡献者名单
+https://supersupeng.github.io/hire-your-ai/
 
-| 姓名 | 职责 | 简介 |
-| :----| :---- | :---- |
-| 小明 | 项目负责人 | 一个理想主义者 |
-| 小红 | 第1章贡献者 | 小明的朋友 |
-| 小强 | 第2章贡献者 | 小明的朋友 |
+## 📚 课程目录
 
-*注：表头可自定义，但必须在名单中标明项目负责人*
+| 章节 | 状态 |
+|---|---|
+| [📖 卷首语](docs/00_卷首语.md) | ✅ |
+| **📦 模块一:基础篇 —— 认知重塑与拎包入职** | |
+| ├ [导语](docs/01_模块一_基础篇/index.md) | ✅ |
+| ├ [1. 认知重塑](docs/01_模块一_基础篇/01_认知重塑.md) | ✅ |
+| └ 2. 拎包入职 | |
+| &nbsp;&nbsp;&nbsp;├ [导语](docs/01_模块一_基础篇/02_拎包入职/index.md) | ✅ |
+| &nbsp;&nbsp;&nbsp;├ [2.1 API Key](docs/01_模块一_基础篇/02_拎包入职/01_API_Key.md) | 🚧 |
+| &nbsp;&nbsp;&nbsp;├ [2.2 前台办公区](docs/01_模块一_基础篇/02_拎包入职/02_前台办公区.md) | 🚧 |
+| &nbsp;&nbsp;&nbsp;├ [2.3 后台管理室](docs/01_模块一_基础篇/02_拎包入职/03_后台管理室.md) | 🚧 |
+| &nbsp;&nbsp;&nbsp;├ [2.4 前后台连接](docs/01_模块一_基础篇/02_拎包入职/04_前后台连接.md) | 🚧 |
+| &nbsp;&nbsp;&nbsp;└ [2.5 飞书机器人](docs/01_模块一_基础篇/02_拎包入职/05_飞书机器人.md) | ✅ |
+| **🎯 模块二:实战篇 —— 场景挖掘与业务流编排** | |
+| ├ [导语](docs/02_模块二_实战篇/index.md) | ✅ |
+| ├ [3. 破冰实战](docs/02_模块二_实战篇/03_破冰实战.md) | ✅ |
+| └ [4. 场景挖掘](docs/02_模块二_实战篇/04_场景挖掘.md) | ✅ |
+| **🧠 模块三:进阶篇 —— 灵魂注入与集团军作战** | |
+| ├ [导语](docs/03_模块三_进阶篇/index.md) | ✅ |
+| ├ [5. 灵魂注入](docs/03_模块三_进阶篇/05_灵魂注入.md) | ✅ |
+| └ [6. 进阶架构](docs/03_模块三_进阶篇/06_进阶架构.md) | ✅ |
+| **🚀 模块四:深水区 —— 组建小队,搭建你的数字公司** | |
+| ├ [导语](docs/04_模块四_深水区/index.md) | ✅ |
+| ├ [7. 产研小队](docs/04_模块四_深水区/07_产研小队.md) | ✅ |
+| ├ [8. 增长小队](docs/04_模块四_深水区/08_增长小队.md) | ✅ |
+| └ [9. 跨小队协作](docs/04_模块四_深水区/09_跨小队协作.md) | ✅ |
+| [📎 附录](docs/05_附录.md) | ✅ |
 
-## 参与贡献
+> ✅ 已就绪 · 🚧 写作中
 
-- 如果你发现了一些问题，可以提Issue进行反馈，如果提完没有人回复你可以联系[保姆团队](https://github.com/datawhalechina/DOPMC/blob/main/OP.md)的同学进行反馈跟进~
-- 如果你想参与贡献本项目，可以提Pull Request，如果提完没有人回复你可以联系[保姆团队](https://github.com/datawhalechina/DOPMC/blob/main/OP.md)的同学进行反馈跟进~
-- 如果你对 Datawhale 很感兴趣并想要发起一个新的项目，请按照[Datawhale开源项目指南](https://github.com/datawhalechina/DOPMC/blob/main/GUIDE.md)进行操作即可~
+## 📦 仓库结构
 
-## 关注我们
+```
+hire-your-ai/
+├── docs/                    课程正文(VitePress 渲染源)
+├── starter-pack/            配套物料:可直接 clone 使用的 Agent / Skill 示例
+│   ├── agents/
+│   └── skills/
+├── scripts/                 飞书双向同步脚本
+│   ├── fetch_from_feishu.sh 飞书 → 本地
+│   ├── sync_to_feishu.sh    本地 → 飞书
+│   └── sync_config.json     文件路径 → 飞书 doc_id 映射
+└── .github/workflows/       自动部署到 GitHub Pages
+```
 
-<div align=center>
-<p>扫描下方二维码关注公众号：Datawhale</p>
-<img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "180" height = "180">
-</div>
+## 🛠 本地开发
 
-## LICENSE
+```bash
+# 安装依赖
+npm install
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+# 启动本地预览(默认 http://localhost:5173/hire-your-ai/)
+BASE=/ npm run docs:dev
 
-*注：默认使用CC 4.0协议，也可根据自身项目情况选用其他协议*
+# 生产构建
+npm run docs:build
+```
+
+## 🔄 飞书同步
+
+课程正文同时维护在飞书知识库(方便多人协作阅读)和本仓库(版本控制)。
+
+```bash
+# 飞书 → 本地(别人在飞书改了,拉回来)
+bash scripts/fetch_from_feishu.sh
+
+# 本地 → 飞书(你在本地改了,推上去)
+bash scripts/sync_to_feishu.sh
+```
+
+> ⚠️ **主方向约定**:以**本地 git 为真相源**,飞书仅作阅读/小修正。避免双向并发编辑导致覆盖。
+
+需要 [lark-cli](https://github.com/foryourdarling/lark-cli) 和 `jq`。
+
+## 🤝 贡献
+
+欢迎提 Issue 或 PR:
+- 勘误、举例补充 → PR
+- 新场景需求 → Issue 聊一聊再落地
+
+## 🌟 出品社区
+
+<p align="center">
+  <a href="https://github.com/datawhalechina">
+    <img src="docs/public/datawhale-logo.png" alt="Datawhale" height="64">
+  </a>
+</p>
+
+<p align="center">
+  本教程来自 <a href="https://github.com/datawhalechina">Datawhale 开源社区</a> —— 一群愿意把所学开源给所有人的学习者。<br>
+  主理人:<a href="https://github.com/SuperSupeng">@SuperSupeng (Darren)</a>
+</p>
+
+## 📄 License
+
+本作品采用 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 协议:
+- ✅ 可自由分享、改编
+- ❌ 不可用于商业用途
+- ⚖️ 改编版本必须使用相同协议
