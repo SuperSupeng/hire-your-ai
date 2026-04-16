@@ -72,10 +72,6 @@ hire-your-ai/
 ├── starter-pack/            配套物料:可直接 clone 使用的 Agent / Skill 示例
 │   ├── agents/
 │   └── skills/
-├── scripts/                 飞书双向同步脚本
-│   ├── fetch_from_feishu.sh 飞书 → 本地
-│   ├── sync_to_feishu.sh    本地 → 飞书
-│   └── sync_config.json     文件路径 → 飞书 doc_id 映射
 └── .github/workflows/       自动部署到 GitHub Pages
 ```
 
@@ -91,22 +87,6 @@ BASE=/ npm run docs:dev
 # 生产构建
 npm run docs:build
 ```
-
-## 🔄 飞书同步
-
-课程正文同时维护在飞书知识库(方便多人协作阅读)和本仓库(版本控制)。
-
-```bash
-# 飞书 → 本地(别人在飞书改了,拉回来)
-bash scripts/fetch_from_feishu.sh
-
-# 本地 → 飞书(你在本地改了,推上去)
-bash scripts/sync_to_feishu.sh
-```
-
-> ⚠️ **主方向约定**:以**本地 git 为真相源**,飞书仅作阅读/小修正。避免双向并发编辑导致覆盖。
-
-需要 [lark-cli](https://github.com/foryourdarling/lark-cli) 和 `jq`。
 
 ## 🤝 贡献
 
