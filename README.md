@@ -42,10 +42,10 @@ https://supersupeng.github.io/hire-your-ai/
 | ├ [1. 认知重塑](docs/01_模块一_基础篇/01_认知重塑.md) | ✅ |
 | └ 2. 拎包入职 | |
 | &nbsp;&nbsp;&nbsp;├ [导语](docs/01_模块一_基础篇/02_拎包入职/index.md) | ✅ |
-| &nbsp;&nbsp;&nbsp;├ [2.1 API Key](docs/01_模块一_基础篇/02_拎包入职/01_API_Key.md) | 🚧 |
-| &nbsp;&nbsp;&nbsp;├ [2.2 前台办公区](docs/01_模块一_基础篇/02_拎包入职/02_前台办公区.md) | 🚧 |
-| &nbsp;&nbsp;&nbsp;├ [2.3 后台管理室](docs/01_模块一_基础篇/02_拎包入职/03_后台管理室.md) | 🚧 |
-| &nbsp;&nbsp;&nbsp;├ [2.4 前后台连接](docs/01_模块一_基础篇/02_拎包入职/04_前后台连接.md) | 🚧 |
+| &nbsp;&nbsp;&nbsp;├ [2.1 API Key](docs/01_模块一_基础篇/02_拎包入职/01_API_Key.md) | 📝 |
+| &nbsp;&nbsp;&nbsp;├ [2.2 前台办公区](docs/01_模块一_基础篇/02_拎包入职/02_前台办公区.md) | 📝 |
+| &nbsp;&nbsp;&nbsp;├ [2.3 后台管理室](docs/01_模块一_基础篇/02_拎包入职/03_后台管理室.md) | 📝 |
+| &nbsp;&nbsp;&nbsp;├ [2.4 前后台连接](docs/01_模块一_基础篇/02_拎包入职/04_前后台连接.md) | 📝 |
 | &nbsp;&nbsp;&nbsp;└ [2.5 飞书机器人](docs/01_模块一_基础篇/02_拎包入职/05_飞书机器人.md) | ✅ |
 | **🎯 模块二:实战篇 —— 场景挖掘与业务流编排** | |
 | ├ [导语](docs/02_模块二_实战篇/index.md) | ✅ |
@@ -62,7 +62,7 @@ https://supersupeng.github.io/hire-your-ai/
 | └ [9. 跨小队协作](docs/04_模块四_深水区/09_跨小队协作.md) | ✅ |
 | [📎 附录](docs/05_附录.md) | ✅ |
 
-> ✅ 已就绪 · 🚧 写作中
+> ✅ 已就绪 · 📝 骨架已填,细节打磨中 · 🚧 写作中
 
 ## 📦 仓库结构
 
@@ -123,8 +123,8 @@ bash scripts/sync_to_feishu.sh
 </p>
 
 <p align="center">
-  本教程来自 <a href="https://github.com/datawhalechina">Datawhale 开源社区</a> —— 一群愿意把所学开源给所有人的学习者。<br>
-  主理人:<a href="https://github.com/SuperSupeng">@SuperSupeng (Darren)</a>
+  本教程来自 <a href="https://github.com/datawhalechina">Datawhale AI 开源学习社区</a> —— For the learner， 和学习者一起成长。<br>
+  内容发起者:<a href="https://github.com/SuperSupeng">@SuperSupeng (Darren)</a>
 </p>
 
 ## 📄 License
